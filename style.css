@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 
 :root{
-  --orange:#ffa500;
+  --orange:rgb(105, 102, 102);
 }
 
 *{
@@ -38,7 +38,7 @@ section{
 .heading span{
   font-size: 3.5rem;
   background:rgba(255, 165, 0,.2);
-  color:var(--orange);
+  color:rgb(105, 102, 102);
   border-radius: .5rem;
   padding:.2rem 1rem;
 }
@@ -50,23 +50,24 @@ section{
 .btn{
   display: inline-block;
   margin-top: 1rem;
-  background:var(--orange);
-  color:#fff;
+  background:rgb(105, 102, 102);
+  color:white;
   padding:.8rem 3rem;
-  border:.2rem solid var(--orange);
+  border:.2rem solid white;
   cursor: pointer;
   font-size: 1.7rem;
+  border-radius:5rem;
 }
 
 .btn:hover{
-  background:rgba(255, 165, 0,.2);
-  color:var(--orange);
+  background:rgba(151, 112, 40, 0.2);
+  color:rgb(0, 0, 0);
 }
 
 header{
   position: fixed;
   top:0; left: 0; right:0;
-  background:#333;
+  background:rgb(105, 102, 102);
   z-index: 1000;
   display: flex;
   align-items: center;
@@ -82,7 +83,7 @@ header .logo{
 }
 
 header .logo span{
-  color:var(--orange);
+  color:black;
 }
 
 header .navbar a{
@@ -92,7 +93,7 @@ header .navbar a{
 }
 
 header .navbar a:hover{
-  color:var(--orange);
+  color:black;
 }
 
 header .icons i{
@@ -103,7 +104,7 @@ header .icons i{
 }
 
 header .icons i:hover{
-  color:var(--orange);
+  color:black;
 }
 
 header .search-bar-container{
@@ -289,7 +290,7 @@ header .search-bar-container label:hover{
 }
 
 .home .controls .vid-btn.active{
-  background:var(--orange);
+  background:rgb(105, 102, 102);
 }
 
 .book .row{
@@ -461,7 +462,7 @@ header .search-bar-container label:hover{
 
 .gallery .box-container .box .content h3{
   font-size: 2.5rem;
-  color:var(--orange);
+  color:white;
 }
 
 .gallery .box-container .box .content p{
@@ -554,7 +555,7 @@ header .search-bar-container label:hover{
 }
 
 .footer{
-  background:#333;
+  background:rgb(105, 102, 102);
 }
 
 .footer .box-container{
@@ -588,7 +589,7 @@ header .search-bar-container label:hover{
 }
 
 .footer .box-container .box a:hover{
-  color:var(--orange);
+  color:black;
   text-decoration: underline;
 }
 
@@ -603,7 +604,7 @@ header .search-bar-container label:hover{
 }
 
 .footer .credit span{
-  color:var(--orange);
+  color:rgb(0, 0, 0);
 }
 
 
